@@ -105,7 +105,7 @@ public class MatchServiceImpl implements MatchService {
 		    			log.debug("Stored Procedure executed successfully!");
 		    			
 		    			// SEND PUSHBOTS NOTIFICATIONS TO MOBILE USERS !!!
-		    			PushBotsAPIService.sendNotificationsToAll(MatchMapper.setPushNotificationMatchCloseMessage(updated, matchReq.getResult(), matchReq.getResultExtra()));
+		    			//PushBotsAPIService.sendNotificationsToAll(MatchMapper.setPushNotificationMatchCloseMessage(updated, matchReq.getResult(), matchReq.getResultExtra()));
 		    		}
 		    		else{
 		    			// PARTIDO NO CERRADO CON RIVALES AHORA DEFINIDOS

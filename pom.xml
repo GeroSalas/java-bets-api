@@ -297,7 +297,7 @@
 			  <configuration>
 			    <jdkVersion>1.8</jdkVersion>
 			    <warFile>target/desafio.war</warFile>
-			    <appName>desafio-app</appName>
+			    <appName>desafio-api</appName>
 			  </configuration>
 			</plugin>
 			<plugin>

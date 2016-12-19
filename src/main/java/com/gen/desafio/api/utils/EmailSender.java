@@ -26,8 +26,8 @@ public class EmailSender {
     
 	private static final Logger log = LoggerFactory.getLogger(EmailSender.class);
 	
-	private static final String gmailUsername = "desafioapp.genlabs@gmail.com";
-	private static final String gmailPassword = "admin.genlabs";
+	private static final String gmailUsername = "geronimo.perez.salas@gmail.com";
+	private static final String gmailPassword = "Geronimo10@";
 	
 	private static Properties props;
 	
@@ -158,7 +158,7 @@ public class EmailSender {
         }
         else{ 
         	// Support Ticket
-        	message.addRecipient(Message.RecipientType.TO, new InternetAddress("gabriel@portegno.com"));
+        	message.addRecipient(Message.RecipientType.TO, new InternetAddress("geronimo.perez.salas@gmail.com"));
         	message.setSubject("Nuevo Ticket de Soporte en DesafioApp");
         }     
         

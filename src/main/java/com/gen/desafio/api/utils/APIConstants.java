@@ -6,7 +6,7 @@ public interface APIConstants {
 	public static final String APP_ISSUER_NAME = "DesafioAPI";
     
     public static final String DESAFIO_REST_API_DEV_ENDPOINT = "http://localhost:8080/desafio/api";
-    public static final String DESAFIO_REST_API_PROD_ENDPOINT = "https:/desafio-app.herokuapp.com/api";
+    public static final String DESAFIO_REST_API_PROD_ENDPOINT = "https:/desafio-api.herokuapp.com/api";
     
     public static final String API_PUBLIC_KEY = "G10590E8C8N2E482FB37A254275C312FD";
 	public static final String API_SECRET_KEY = "da8d0d9daa+7a14b86ab425cc2f3009b6fcf43GENLabs2016";
