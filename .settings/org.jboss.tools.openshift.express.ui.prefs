@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+org.jboss.tools.openshift.ApplicationId=571566b50c1e66865a000021
+org.jboss.tools.openshift.ApplicationName=desafioapi
+org.jboss.tools.openshift.Connection=https\://geronimo.perez.salas%40gmail.com@
+org.jboss.tools.openshift.DeployFolder=webapps
+org.jboss.tools.openshift.Domain=noroesteqa
+org.jboss.tools.openshift.RemoteName=openshift
